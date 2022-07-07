@@ -161,7 +161,6 @@ function adapter.build_spec(args)
     "--verbose",
     "--json",
     "--outputFile=" .. results_path,
-    "--config=" .. config,
     "--testNamePattern=" .. testNamePattern,
     pos.path,
   }) do
